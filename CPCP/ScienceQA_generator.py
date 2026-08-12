@@ -10,7 +10,7 @@ from scienceQA_load import load_and_process_json  # 导入 ScienceQA 数据加�
 
 # 设置远程 API 密钥和基础 URL（用于生成候选指令）
 def api(content, retries=5, delay=5):
-    openai.api_key = "sk-80b99456e5cc40439a37f02a0003f51e"
+    openai.api_key = "******"
     openai.api_base = "https://api.deepseek.com/v1"
     for attempt in range(retries):
         try:
